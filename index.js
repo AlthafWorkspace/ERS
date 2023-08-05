@@ -45,7 +45,7 @@ app.use(session({
     },
     store: new MongoStore(
         {
-            mongoUrl: 'mongodb://localhost/ERS', // Use the MongoDB URL here
+            mongoUrl: 'mongodb://localhost:27017/ERS', // Use the MongoDB URL here
             mongoOptions: {
                 useNewUrlParser: true,
                 useUnifiedTopology: true,
